@@ -6,7 +6,7 @@ export default {
     }
   },
   methods: {
-    increment(e) {
+    increment(e: Event) {
       e.preventDefault();
       this.count += 1
     }
